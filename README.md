@@ -1,4 +1,4 @@
-# wkhtmltopdf heroku-18 Buildpack
+# wkhtmltopdf heroku Buildpack
 
 This is a [Heroku buildpack][0] for bundling a compatible [wkhtmltopdf][1]
 binary with your environment.
@@ -6,7 +6,7 @@ binary with your environment.
 ## Versions
 
 * Buildpack:   `0.1`
-* wkhtmltopdf: `0.12.5-1.bionic_amd64.deb` by default
+* wkhtmltopdf: `0.12.6-1.bionic_amd64.deb` by default
 
 ## Usage
 
@@ -15,7 +15,7 @@ and `wkhtmltoimage` binaries, and the corresponding library `libwkhtmltox`,
 into the dynos:
 
 ```bash
-$ heroku buildpacks:add https://github.com/chap/wkhtmltopdf-heroku-18-buildpack --index 1
+$ heroku buildpacks:add https://github.com/advoninja/wkhtmltopdf-buildpack --index 1
 ```
 
 If you want to use a `wkhtmltopdf` version other than the default set
